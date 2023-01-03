@@ -11,12 +11,14 @@ A naive approach is taken whereby
 3. Receive individual chunks and store in correct order
 4. End receive when all chunks done
 
+```
 [STX, LEN]
 [Chunk Index 1, Data]
 [Chunk Index 2, Data]
 [Chunk Index 4, Data]
 [Chunk Index 3, Data]
 ...
+```
 
 # ESPNOW Protocol Notes
 
